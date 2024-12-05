@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+/* ------------------------------------ Sidebar */
+*{
+    /* margin:0px; */
+    /* margin-right: 2000 px; */
+    padding:0;
+    text-decoration: none;
+  }
+  .container{
+    display:inline-flex;
+  }
+  main{
+    width: 20%;
+    z-index: 1;
+    position: relative;
+    padding: 20px;
+  }
+  /* .sidebar{
+    background: #000;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    height: 94vh  ;
+    width: 100px;
+    transition: all 0.5s;
+  } */
+  .sidebar {
+    background: #000;
+    position: fixed; /* Change the position to fixed */
+    color: #fff;
+    z-index: 1;
+    height:100%;
+    width: 100px;
+    transition: all 0.5s;
+}
+  .top_section{
+    /* display: flex; */
+    align-items:center;
+    padding:20px 15px;
+  }
+  .logo{
+    font-size: 30px;
+  }
+  .bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 0px;
+  }
+  .link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  .link:hover{
+    background:black;
+    /* color: #000; */
+    transition: all 0.5s;
+  }
+  .active{
+    background: black;
+    color: #000;
+  }
+  .icon, .link_text{
+    font-size: 20px;
+  }
+  .centered-form {
+    display: inline-flex;
+    height: 100%;
+    flex-direction: column;
+     /* align-items: center;
+    justify-content: center;  */
+    /* margin-left: px; */  
+    /* width: 100%; */
+    /* height: 100%; Optionally, set a height for the form container */
+  }
+  
+  
+  

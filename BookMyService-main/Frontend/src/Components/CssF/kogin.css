@@ -1,0 +1,82 @@
+/* Style for the login container */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+    margin-top: 80px;
+  }
+  
+  /* Style for the login form heading */
+  .login-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style for form labels */
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for form input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the login button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the sign-up and forgot password links */
+  .links {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  /* In your CSS file (e.g., App.css) */
+
+  /* In your CSS file (e.g., App.css) */
+.app-container {
+    position: relative;
+  }
+  
+  .background-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));  /* Set your desired background color here
+  }
+  
+  .content-container {
+    z-index: 1; /* Ensure content is on top of the background */
+    /* Other styles for the content container go here */
+  }
+  

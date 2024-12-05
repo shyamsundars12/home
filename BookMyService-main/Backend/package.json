@@ -1,0 +1,33 @@
+{
+  "name": "bookmyservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src\\index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@geoapify/geocoder-autocomplete": "^2.0.1",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.40.0",
+    "cors": "^2.8.5",
+    "deg2rad": "^1.0.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mongodb": "^5.8.1",
+    "mongoose": "^7.4.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.5",
+    "stripe": "^14.1.0",
+    "tzdata": "^1.0.38"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

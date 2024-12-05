@@ -1,0 +1,15 @@
+.background-image-container {
+    background-image: url('path_to_your_image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensure the container covers the entire viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add any additional styles to your form elements here */
+.wow.fadeInUp:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
